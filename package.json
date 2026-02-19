@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp-manzdev-estructura-b",
+  "version": "1.0.0",
+  "description": "Un proyecto de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/",
+    "build": "echo Comando reservado",
+    "deploy": "echo Comando reservado"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "estudiante"
+  ],
+  "author": "mago77programador",
+  "license": "MIT",
+  "packageManager": "pnpm@10.30.0",
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.33.0",
+    "oxlint": "^1.48.0",
+    "servor": "^4.0.2"
+  }
+}
