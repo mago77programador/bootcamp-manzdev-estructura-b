@@ -1,27 +1,40 @@
 {
-  "name": "bootcamp-manzdev-estructura-b",
-  "version": "1.0.0",
-  "description": "Un proyecto de JavaScript",
-  "main": "index.js",
+  "name": "embajada-zorblaxiana",
+  "version": "1.1.0",
+  "description": "Una presentación premium y futurista de la especie Zorblaxiana. Proyecto vanilla para el Bootcamp ManzDev 2026.",
+  "keywords": [
+    "manzdev",
+    "bootcamp",
+    "vanilla-js",
+    "glassmorphism",
+    "alien",
+    "futuristic-ui",
+    "html5",
+    "css3"
+  ],
+  "license": "MIT",
+  "author": "mago77programador",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
+    "start": "npm run dev",
     "dev": "servor src/ index.html 1234 --reload",
     "lint": "oxlint src/",
-    "format": "oxfmt src/",
-    "build": "echo Comando reservado",
-    "deploy": "echo Comando reservado"
+    "format": "workspaces-format src/",
+    "build": "echo 'Preparando para contacto intergaláctico...'",
+    "deploy": "gh-pages -d src/",
+    "preview": "npm run dev"
   },
-  "keywords": [
-    "javascript",
-    "html",
-    "estudiante"
-  ],
-  "author": "mago77programador",
-  "license": "MIT",
-  "packageManager": "pnpm@10.30.0",
-  "type": "module",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "oxfmt": "^0.33.0",
     "oxlint": "^1.48.0",
     "servor": "^4.0.2"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mago77programador/bootcamp-manzdev-estructura-b.git"
   }
 }
+
